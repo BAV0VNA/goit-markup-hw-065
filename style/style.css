@@ -59,14 +59,15 @@ a {
   padding: 0;
 }
 .container {
-  max-width: 1158px;
+  /* max-width: 1158px; */
+  max-width: 320px;
   outline: 1px solid red;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 16px;
 }
 /* Header */
 .header {
-  padding: 24px 0;
+  padding: 16px 0;
 }
 .header .container {
   display: flex;
@@ -83,6 +84,13 @@ a {
   text-transform: uppercase;
   color: #2e2f42;
 }
+.header-btn-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: none;
+}
 .web-link-header {
   font-weight: 700;
   font-size: 18px;
@@ -93,9 +101,9 @@ a {
 }
 .nav-list {
   display: flex;
-
   margin-right: 332px;
   gap: 40px;
+  display: none;
 }
 .nav-item {
 }
@@ -121,6 +129,7 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   font-style: normal;
+  display: none;
 }
 .mail-link {
 }
@@ -776,59 +785,4 @@ input:checked + .modal-label-privacy .modal-span-check {
   margin: 0 auto;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.backdrop {
-}
-.is-open {
-}
-.modal {
-}
-.modal-close-btn {
-}
-.modal-close-svg {
-}
-.modal-close-use {
-}
-.modal-open-use {
-}
-.madal-title {
-}
-.modal-form {
-}
-.modal-cont-label {
-}
-.modal-label {
-}
-.modal-cont-input {
-}
-.modal-input {
-}
-.modal-input-svg {
-}
-.modal-input-use {
-}
-.conteiner-textarea {
-}
-.modal-textarea {
-}
-.comment {
-}
-.modal-container-checkbox {
-}
-.input-checkbox {
-}
-.visually-hidden {
-}
-.modal-label-privacy {
-}
-.modal-span-check {
-}
-.modal-svg-checkbox {
-}
-.modal-use-checkbox {
-}
-.modal-privacy-policy {
-}
-.modal-send-btn {
 }
