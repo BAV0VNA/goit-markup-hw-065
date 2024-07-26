@@ -78,7 +78,8 @@ a {
   display: flex;
 }
 .header-logo-link {
-  margin-right: 76px;
+  margin-right: 149px;
+  /* margin-right: 76px; */
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -166,7 +167,8 @@ a {
 }
 
 .hero-title {
-  width: 496px;
+  /* width: 496px; */
+  width: 216px;
   margin: 0 auto;
   margin-bottom: 48px;
   font-size: 56px;
@@ -176,7 +178,9 @@ a {
   color: #fff;
 }
 .hero-but {
-  margin-left: 480px;
+  /* margin-left: 480px; */
+  display: block;
+  margin: auto;
   border-radius: 4px;
   padding: 16px 32px;
   width: 169px;
@@ -474,9 +478,7 @@ a {
 .foot-svg-cont {
 }
 .foot-svg-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -515,9 +517,7 @@ a {
 .footer-conteiner-subscribe {
 }
 .footer-text-subscribe {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   margin-bottom: 16px;
   /* justify-content: start;
   align-items: flex-start; */
